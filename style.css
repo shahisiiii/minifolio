@@ -447,7 +447,31 @@ nav{
 }
  
 .size-mail,.size-blog{
-    font-size: 6rem;
-
+    font-size: 6rem;  
+}
+.box-6{
+    grid-area: 2 / 3 / 3 / 5;
+}
+.whatido-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
+
+}
+
+.whatido-bottom-text{
+    width: 100%;
+    color: var(--clr-bottom-content);   
+    margin-top: 15px;
+    margin-bottom: 0;
+    
+}
+.whatido-icon{
+    font-size: 4rem;
+} 
+
+.whatido-main-text{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
 }
