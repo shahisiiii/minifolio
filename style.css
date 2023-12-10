@@ -438,9 +438,15 @@ nav{
 }
 
 
-.mail-icon{
+.mail-icon,.blog-icon{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
+}
+
+.size-mail,.size-blog{
+    font-size: 6rem;
+
 }
