@@ -365,7 +365,7 @@ nav{
     display: flex;
     position: relative;
     box-shadow: 6px 6px 10px rgba(174, 174, 192, .4), -6px -6px 10px #fff;
-    /* align-items: center; */
+    
 }
 
 .grid-box:hover{
@@ -434,10 +434,12 @@ nav{
     background-image: linear-gradient(135deg, #9ec5ff, #e1a6f8);
     -webkit-background-clip: text;
     background-clip: text;
-    display: inline-block;
-}
-.grid-box.mail-icon{
     
-    justify-content: center;
+}
+
+
+.grid-box.mail-icon{
+    display: flex;
+    justify-self: center;
     align-items: center;
 }
