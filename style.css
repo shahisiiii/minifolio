@@ -11,7 +11,7 @@
         display:flex;
         justify-content:center;
         align-items: center;
-        padding-top: 2rem;
+        padding-top: 4rem;
         padding-bottom: 2rem;
 }
 /* xs */
@@ -209,7 +209,7 @@
 
 
 .logo{
-    font-size:32px;
+    font-size:33px;
     font-weight: 900;
 }
  
@@ -263,6 +263,22 @@ svg{
     max-width: 100%;
     user-select: none;
 }
+input, textarea, select ,button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+  }
 button{
     display: inline-block;
     padding: 0;
@@ -288,6 +304,7 @@ h3{
     color: var(--clr-links);
     margin: 0;
     padding: 0;
+    letter-spacing: -0.5px;
 }
   
     
@@ -328,7 +345,7 @@ nav{
 
 
 .logo{
-    
+    letter-spacing: -1px;
     color: #808b9f;
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(135deg, #9ec5ff, #e1a6f8);
@@ -447,7 +464,7 @@ nav{
 }
  
 .size-mail,.size-blog{
-    font-size: 6rem;  
+    font-size: 5rem;  
 }
 .box-6{
     grid-area: 2 / 3 / 3 / 5;
@@ -464,11 +481,11 @@ nav{
     width: 100%;
     color: var(--clr-bottom-content);   
     margin-top: 10px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     
 }
 .whatido-icon{
-    font-size: 3.5rem;
+    font-size: 3rem;
 } 
 
 .whatido-main-text{
@@ -480,3 +497,62 @@ nav{
     grid-area: 3/1/3/3;
 }
 
+.newsletter-main-text{
+    font-size: 2rem;
+}
+.news-logo{
+    font-size: 3rem;
+    margin-bottom: 10px;
+
+}
+.news-box{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 3rem;
+    /* flex-direction: column;
+    justify-content: flex-end; */
+    padding:1rem 1rem;
+    text-decoration: none;
+    transition: all .3s;
+    /* display: flex;
+    position: relative; */
+    box-shadow: inset 6px 6px 10px rgba(174, 174, 192, .4), inset -6px -6px 10px #fff;
+    
+}
+.news-bottom{
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.news-button{
+    width: 10rem;
+    height: 3rem;
+    color: #96b0c9;
+    border-radius: 3rem;
+    box-shadow:  6px 6px 10px rgba(174, 174, 192, .4),  -6px -6px 10px #fff;
+}
+
+.box-8{
+    grid-area: 3/3/4/5;
+}
+.get-in-a-touch-icon,.get-in-a-touch-main-text{
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+    color: #808b9f;
+    letter-spacing: -0.8px;
+    font-family: Satoshi, sans-serif;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(135deg, #9ec5ff, #e1a6f8);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+.footer-1st-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
